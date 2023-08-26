@@ -1,0 +1,260 @@
+@media screen and (max-width: 991px){
+    /* nav */
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        right: -100%;
+        top:110%;
+        width: 50%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-links.active{
+        right: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;       
+    }
+    /* example */
+    .example-body{
+        gap: 15px;
+    }
+    
+    .example-body .example-card{
+        width: 48.7%;
+
+    }
+    /* company */
+    .companies .logos{
+        justify-content:start;
+        gap: 20px;
+    }
+    /* cta */
+    .cta{
+        margin-top: 40px;
+        padding: 30px 0;
+    }
+    .cta-text{
+        padding-left: 20px;
+    }
+    .cta h1{
+        font-size: 2.0rem;
+        line-height: 3.0rem;
+    }
+    .cta-button{
+        margin-top: 30px;
+        gap: 10px;
+    }
+    .cta .primary-button{
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+    .cta .secondary-button{
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+    .cta li{
+        padding-bottom: 5px;
+        font-size: 0.9rem;
+    }
+    /* testing */
+    .testing{
+        margin: 50px 0px 30px 0px;
+    }
+    /* features */
+    .feature-cards h3{
+        font-size: 1.3rem;
+    }
+    .feature-cards p{
+        font-size: 1.1rem;
+    }
+    .feature-cards a{
+        font-size: 1rem;
+    }
+    .feature-cards .secondary-button{
+        padding: 10px;
+    }
+    .feature-heading h2{
+        font-size: 1.8rem
+    }
+    .feature-heading .secondary-button{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    /* banner */
+    .top-banner .small-bold-text{
+        font-size: 0.9rem;
+    }
+    .banner-text{
+        padding: 12px 20px;
+    }
+
+    /* header */
+    .main-header{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100%;
+        text-align: center;
+    }
+    /* features */
+
+    .features{
+        padding: 80px var(--padding-inline-section) 0;
+        background-size: 700px;
+        background-position: 50% 50%;
+    }
+   
+    .feature-cards{
+        max-width: 47%;
+    }
+    /* big-features */
+    .big-feature-container{
+        flex-direction: column;
+        padding-block: 10px;
+    }
+    .feature-text{
+        max-width: 100%;
+    }
+    .reverse-feature{
+        flex-direction: column-reverse;
+        padding-block: 10px;
+    }
+    /* example */
+    .example-heading h2{
+        font-size: 1.7rem;
+    }
+    .example-heading a{
+        font-size: 0.9rem;
+    }
+    .example-body{
+        flex-direction: column;
+    }
+    .example-body .example-card{
+        width: 100%;
+    }
+    .example-text{
+        text-align: center;
+    }
+    /* big-footer */
+    .big-footer .container{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+    .list-items{
+        align-items: stretch;
+    }
+    /* footer */
+    .sub-footer .container{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    /* cta */
+    .cta-text{
+        padding-right: 20px;
+    }
+    .cta .container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .cta ul{
+        list-style: none;
+    }
+    .cta-button{
+        justify-content: start;
+        padding-top: 20px;
+        padding-left: 35px;
+        }
+    /* comapnies */
+    .companies .logos{
+        justify-content: start;
+    }
+
+}
+@media screen and (max-width: 478px) 
+{
+    :root{
+        --padding-inline-section: 15px;
+
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    /* nav */
+    .nav-links{
+        width: 100%;
+    }
+    /* banner */
+    .top-banner .small-bold-text{
+        font-size: 0.8rem;
+    }
+    .banner-text{
+        padding: 8px 20px;
+    }
+    /* nav */
+    .main-nav .company-logo img{
+        width: 130px;
+    }
+    /* header */
+    .main-header{
+        gap: 20px;
+    }
+    /* features */
+    .features{
+        padding-top: 70px;
+    }
+    .feature-area{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-cards{
+        max-width: 100%;
+    }
+    /* cta */
+    .cta-button .primary-button{
+        padding: 5px;
+    }
+    .cta-button{
+        padding: 5px 10px;
+    }
+    .cta-button .secondary-button{
+        padding: 5px;
+    }
+    /* testing */
+    .testing{
+        margin-bottom: 0px;
+    }
+    .testing .container{
+        gap: 15px;
+        text-align: center;
+    }
+    .testing .primary-button{
+        padding: 10px;
+    }
+    /* example */
+    .examples{
+        margin-top: 0px;
+    }
+    .example-heading{
+        text-align: center;
+    }
+}
